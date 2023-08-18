@@ -63,13 +63,16 @@ go build -o cillop ./cmd
 A Dockerfile is included to build a Docker image of the application.
 
 ```bash
-# Build Docker Image
+# Build Docker Image for production
 docker build -t cillop-app .
+
+# Run Docker Container for development (hot reloading)
+docker build -t cillop-app -f Dockerfile.dev .
 
 # Copy env file from .env.example
 cp .env.example .env
 
-# Run Docker Container
+# Run Docker Container for production
 docker run -p 8080:8080 --env-file .env --name cillop-app cillop-app
 ```
 
