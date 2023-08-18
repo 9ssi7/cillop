@@ -1,0 +1,5 @@
+HTTP_OK = "Ok."
+
+product_create_failed = "Product creation failed."
+product_invalid_id = "Invalid product id."
+product_not_found = "Product not found."

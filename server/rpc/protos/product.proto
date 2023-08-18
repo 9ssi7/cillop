@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package routes;
+
+option go_package = "github.com/ssibrahimbas/cillop/server/rpc/routes";
+
+service ProductService {
+    rpc Create(CreateProductRequest) returns (CreateProductResponse) {}
+    rpc Get(GetProductRequest) returns (GetProductResponse) {}
+}
+
+message CreateProductRequest {
+    string name = 1;
+}
+
+message CreateProductResponse {
+    string id = 1;
+}
+
+message GetProductRequest {
+    string id = 1;
+}
+
+message GetProductResponse {
+    string name = 1;
+}
