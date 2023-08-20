@@ -2,6 +2,8 @@
 
 Cillop is a scalable and modular application architecture designed for building robust and maintainable applications.
 
+For detailed explanation on how things work, checkout the [ssibrahimbas's Medium Text](https://ssibrahimbas.medium.com/the-cillop-architecture-675ff2102b5a)
+
  ![The Architecture Overview](./__readme__/cillop.drawio.png)
 
 ## Directory Structure 📂
