@@ -1,3 +1,10 @@
+# Project Archived
+
+Development on this project has stopped, you can still use it but you should know that there will be no future updates.
+
+After Cillop, we created the architecture called [gopre](https://github.com/9ssi7/gopre) by further improving the approaches in Cillop and revising it according to golang and community standards. You should [check it out](https://github.com/9ssi7/gopre)!
+
+
 # Cillop Architecture 🏗
 
 Cillop is a scalable and modular application architecture designed for building robust and maintainable applications.
